@@ -81,7 +81,8 @@
 		1767DA75232F621F00866017 /* TextSaver */ = {
 			isa = PBXGroup;
 			children = (
-				1767DA76232F621F00866017 /* AppDelegate.h */,
+				1767DA9B23316A3800866017 /* Data */,
+				1767DA9A23316A2F00866017 /* UI */,
 				1767DA77232F621F00866017 /* AppDelegate.m */,
 				1767DA79232F621F00866017 /* ViewController.h */,
 				1767DA7A232F621F00866017 /* ViewController.m */,
@@ -101,6 +102,52 @@
 				1767DA91232F622200866017 /* Info.plist */,
 			);
 			path = TextSaverTests;
+			sourceTree = "<group>";
+		};
+		1767DA9A23316A2F00866017 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1767DA9C23316A8D00866017 /* TextSaver */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1767DA9B23316A3800866017 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1767DA9E23316AB800866017 /* DataSource */,
+				1767DA9D23316A9800866017 /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1767DA9C23316A8D00866017 /* TextSaver */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TextSaver;
+			sourceTree = "<group>";
+		};
+		1767DA9D23316A9800866017 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1767DA9E23316AB800866017 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				1767DA9F23316AF600866017 /* UserDefaults */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		1767DA9F23316AF600866017 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserDefaults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
