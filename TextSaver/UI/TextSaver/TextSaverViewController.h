@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TextSaverViewController.h
 //  TextSaver
 //
 //  Created by Abraham Isaac Durán on 9/16/19.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TextSaverViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 
 @end

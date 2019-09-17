@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1767DA78232F621F00866017 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DA77232F621F00866017 /* AppDelegate.m */; };
-		1767DA7B232F621F00866017 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DA7A232F621F00866017 /* ViewController.m */; };
+		1767DA7B232F621F00866017 /* TextSaverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DA7A232F621F00866017 /* TextSaverViewController.m */; };
 		1767DA7E232F621F00866017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1767DA7C232F621F00866017 /* Main.storyboard */; };
 		1767DA80232F622200866017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1767DA7F232F622200866017 /* Assets.xcassets */; };
 		1767DA83232F622200866017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1767DA81232F622200866017 /* LaunchScreen.storyboard */; };
@@ -30,8 +30,8 @@
 		1767DA73232F621F00866017 /* TextSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1767DA76232F621F00866017 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1767DA77232F621F00866017 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1767DA79232F621F00866017 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1767DA7A232F621F00866017 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1767DA79232F621F00866017 /* TextSaverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextSaverViewController.h; sourceTree = "<group>"; };
+		1767DA7A232F621F00866017 /* TextSaverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextSaverViewController.m; sourceTree = "<group>"; };
 		1767DA7D232F621F00866017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1767DA7F232F622200866017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1767DA82232F622200866017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -84,9 +84,7 @@
 				1767DA9B23316A3800866017 /* Data */,
 				1767DA9A23316A2F00866017 /* UI */,
 				1767DA77232F621F00866017 /* AppDelegate.m */,
-				1767DA79232F621F00866017 /* ViewController.h */,
-				1767DA7A232F621F00866017 /* ViewController.m */,
-				1767DA7C232F621F00866017 /* Main.storyboard */,
+				1767DA76232F621F00866017 /* AppDelegate.h */,
 				1767DA7F232F622200866017 /* Assets.xcassets */,
 				1767DA81232F622200866017 /* LaunchScreen.storyboard */,
 				1767DA84232F622200866017 /* Info.plist */,
@@ -108,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				1767DA9C23316A8D00866017 /* TextSaver */,
+				1767DA7C232F621F00866017 /* Main.storyboard */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -124,6 +123,8 @@
 		1767DA9C23316A8D00866017 /* TextSaver */ = {
 			isa = PBXGroup;
 			children = (
+				1767DA79232F621F00866017 /* TextSaverViewController.h */,
+				1767DA7A232F621F00866017 /* TextSaverViewController.m */,
 			);
 			path = TextSaver;
 			sourceTree = "<group>";
@@ -250,7 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1767DA7B232F621F00866017 /* ViewController.m in Sources */,
+				1767DA7B232F621F00866017 /* TextSaverViewController.m in Sources */,
 				1767DA86232F622200866017 /* main.m in Sources */,
 				1767DA78232F621F00866017 /* AppDelegate.m in Sources */,
 			);
