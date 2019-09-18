@@ -1,0 +1,6 @@
+.DS_Store
+Pods/
+xcuserdata/
+.xcuserdatad
+.swift.orig 
+*.xcworkspace/xcshareddata/
