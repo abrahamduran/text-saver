@@ -40,6 +40,7 @@
 		1767DA8B232F622200866017 /* TextSaverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextSaverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1767DA8F232F622200866017 /* TextSaverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextSaverTests.m; sourceTree = "<group>"; };
 		1767DA91232F622200866017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1767DAA52331930F00866017 /* TextSaverDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextSaverDataSource.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +133,7 @@
 		1767DA9D23316A9800866017 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1767DAA52331930F00866017 /* TextSaverDataSource.h */,
 			);
 			path = Models;
 			sourceTree = "<group>";
