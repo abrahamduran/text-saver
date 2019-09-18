@@ -17,6 +17,7 @@
 		1767DAA8233195FF00866017 /* TextSaverRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DAA7233195FF00866017 /* TextSaverRepository.m */; };
 		1767DAAB2331995F00866017 /* UserDefaultsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DAAA2331995F00866017 /* UserDefaultsDataSource.m */; };
 		1767DAAF2331AE3E00866017 /* LocalDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DAAE2331AE3E00866017 /* LocalDataSource.m */; };
+		1767DAB22331C35E00866017 /* TextSaverViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DAB12331C35E00866017 /* TextSaverViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		1767DAAA2331995F00866017 /* UserDefaultsDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsDataSource.m; sourceTree = "<group>"; };
 		1767DAAD2331AE3E00866017 /* LocalDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalDataSource.h; sourceTree = "<group>"; };
 		1767DAAE2331AE3E00866017 /* LocalDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalDataSource.m; sourceTree = "<group>"; };
+		1767DAB02331C35E00866017 /* TextSaverViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextSaverViewModel.h; sourceTree = "<group>"; };
+		1767DAB12331C35E00866017 /* TextSaverViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextSaverViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,8 @@
 			children = (
 				1767DA79232F621F00866017 /* TextSaverViewController.h */,
 				1767DA7A232F621F00866017 /* TextSaverViewController.m */,
+				1767DAB02331C35E00866017 /* TextSaverViewModel.h */,
+				1767DAB12331C35E00866017 /* TextSaverViewModel.m */,
 			);
 			path = TextSaver;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				1767DAA8233195FF00866017 /* TextSaverRepository.m in Sources */,
 				1767DA86232F622200866017 /* main.m in Sources */,
 				1767DA78232F621F00866017 /* AppDelegate.m in Sources */,
+				1767DAB22331C35E00866017 /* TextSaverViewModel.m in Sources */,
 				1767DAAB2331995F00866017 /* UserDefaultsDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
