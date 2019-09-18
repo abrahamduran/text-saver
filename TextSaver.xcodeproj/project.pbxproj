@@ -14,6 +14,7 @@
 		1767DA83232F622200866017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1767DA81232F622200866017 /* LaunchScreen.storyboard */; };
 		1767DA86232F622200866017 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DA85232F622200866017 /* main.m */; };
 		1767DA90232F622200866017 /* TextSaverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DA8F232F622200866017 /* TextSaverTests.m */; };
+		1767DAAB2331995F00866017 /* UserDefaultsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DAAA2331995F00866017 /* UserDefaultsDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,8 @@
 		1767DA8F232F622200866017 /* TextSaverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextSaverTests.m; sourceTree = "<group>"; };
 		1767DA91232F622200866017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1767DAA52331930F00866017 /* TextSaverDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextSaverDataSource.h; sourceTree = "<group>"; };
+		1767DAA92331995F00866017 /* UserDefaultsDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDefaultsDataSource.h; sourceTree = "<group>"; };
+		1767DAAA2331995F00866017 /* UserDefaultsDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				1767DA9E23316AB800866017 /* DataSource */,
-				1767DA9D23316A9800866017 /* Models */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -130,20 +132,22 @@
 			path = TextSaver;
 			sourceTree = "<group>";
 		};
-		1767DA9D23316A9800866017 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				1767DAA52331930F00866017 /* TextSaverDataSource.h */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		1767DA9E23316AB800866017 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
 				1767DA9F23316AF600866017 /* UserDefaults */,
+				1767DAA52331930F00866017 /* TextSaverDataSource.h */,
 			);
 			path = DataSource;
+			sourceTree = "<group>";
+		};
+		1767DA9F23316AF600866017 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				1767DAA92331995F00866017 /* UserDefaultsDataSource.h */,
+				1767DAAA2331995F00866017 /* UserDefaultsDataSource.m */,
+			);
+			path = UserDefaults;
 			sourceTree = "<group>";
 		};
 		1767DA9F23316AF600866017 /* UserDefaults */ = {
@@ -256,6 +260,7 @@
 				1767DA7B232F621F00866017 /* TextSaverViewController.m in Sources */,
 				1767DA86232F622200866017 /* main.m in Sources */,
 				1767DA78232F621F00866017 /* AppDelegate.m in Sources */,
+				1767DAAB2331995F00866017 /* UserDefaultsDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
