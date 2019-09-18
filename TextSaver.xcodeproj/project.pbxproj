@@ -14,6 +14,7 @@
 		1767DA83232F622200866017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1767DA81232F622200866017 /* LaunchScreen.storyboard */; };
 		1767DA86232F622200866017 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DA85232F622200866017 /* main.m */; };
 		1767DA90232F622200866017 /* TextSaverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DA8F232F622200866017 /* TextSaverTests.m */; };
+		1767DAA8233195FF00866017 /* TextSaverRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DAA7233195FF00866017 /* TextSaverRepository.m */; };
 		1767DAAB2331995F00866017 /* UserDefaultsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DAAA2331995F00866017 /* UserDefaultsDataSource.m */; };
 		1767DAAF2331AE3E00866017 /* LocalDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767DAAE2331AE3E00866017 /* LocalDataSource.m */; };
 /* End PBXBuildFile section */
@@ -43,6 +44,8 @@
 		1767DA8F232F622200866017 /* TextSaverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextSaverTests.m; sourceTree = "<group>"; };
 		1767DA91232F622200866017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1767DAA52331930F00866017 /* TextSaverDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextSaverDataSource.h; sourceTree = "<group>"; };
+		1767DAA6233195FF00866017 /* TextSaverRepository.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextSaverRepository.h; sourceTree = "<group>"; };
+		1767DAA7233195FF00866017 /* TextSaverRepository.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextSaverRepository.m; sourceTree = "<group>"; };
 		1767DAA92331995F00866017 /* UserDefaultsDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDefaultsDataSource.h; sourceTree = "<group>"; };
 		1767DAAA2331995F00866017 /* UserDefaultsDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsDataSource.m; sourceTree = "<group>"; };
 		1767DAAD2331AE3E00866017 /* LocalDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalDataSource.h; sourceTree = "<group>"; };
@@ -141,6 +144,8 @@
 				1767DAAC2331AC0F00866017 /* LocalFile */,
 				1767DA9F23316AF600866017 /* UserDefaults */,
 				1767DAA52331930F00866017 /* TextSaverDataSource.h */,
+				1767DAA6233195FF00866017 /* TextSaverRepository.h */,
+				1767DAA7233195FF00866017 /* TextSaverRepository.m */,
 			);
 			path = DataSource;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 			files = (
 				1767DAAF2331AE3E00866017 /* LocalDataSource.m in Sources */,
 				1767DA7B232F621F00866017 /* TextSaverViewController.m in Sources */,
+				1767DAA8233195FF00866017 /* TextSaverRepository.m in Sources */,
 				1767DA86232F622200866017 /* main.m in Sources */,
 				1767DA78232F621F00866017 /* AppDelegate.m in Sources */,
 				1767DAAB2331995F00866017 /* UserDefaultsDataSource.m in Sources */,
