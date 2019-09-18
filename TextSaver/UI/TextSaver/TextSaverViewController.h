@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TextSaverViewModel.h"
 
-@interface TextSaverViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface TextSaverViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate>
 
+@property (nonatomic, strong) TextSaverViewModel *viewModel;
 
 @end
 
